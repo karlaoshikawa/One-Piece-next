@@ -8,7 +8,12 @@
   &:not(.hero-page)::before {
     content: "";
     background: $background;
+    background-image: url("/images/onePiece-background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
     height: 100%;
+    
     position: absolute;
     top: 0;
     width: 100%;
