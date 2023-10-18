@@ -1,8 +1,23 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import style from "./page.module.scss";
+import TripulationList from "./components/TripulationList";
+import { ITripulationData } from "./interfaces/Itripulation";
 
-export default function Home() {
+async function getTripulationData(): Promise<{ data: ITripulationData[] }> {
+  const res = await fetch(`${process.env.DOMAIN_ORIGIN}/api/tripulation`);
+
+  if (!res.ok) {
+    throw new Error("Falha ao buscar a Tripulacao do One Piece");
+  }
+
+  return res.json();
+}
+
+export default async function Home() {
+  const res = await getTripulationData();
+
   return (
-   <h1>One Piece</h1>
+    <main className={style.main}>
+      <TripulationList tripulation={res.data} />
+    </main>
   );
 }
