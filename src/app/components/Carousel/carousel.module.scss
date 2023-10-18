@@ -4,14 +4,14 @@
 
 .carousel {
   flex: 1;
-  left: -12%;
+  left: -10%;
   position: relative;
   width: 100%;
 }
 
 .wrapper {
   cursor: grab;
-  height: 120vh;
+  height: 110vh;
   position: relative;
 
   &:active {
@@ -38,3 +38,4 @@
     width: 100%;
   }
 }
+
