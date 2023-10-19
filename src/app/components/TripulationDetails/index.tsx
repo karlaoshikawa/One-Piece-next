@@ -19,7 +19,7 @@ export default function TripulationDetails({ data }: IProps) {
   const { id, name, details } = data;
 
   return (
-    <div className={quicksand.className}>
+    <div className={`${quicksand.className} ${styles.container}`}>
       <h1 className={`${onePieceFont.className} ${styles.title}`}>{name}</h1>
       <div className={styles.details}>
         <h2 className={styles.subtitle}>Informações</h2>
@@ -55,7 +55,7 @@ export default function TripulationDetails({ data }: IProps) {
       <div className={styles.details}>
         <h2 className={styles.subtitle}>Flag</h2>
         <Image
-          src={`/images/${id.split('-')[0]}-logo.png`}
+          src={`/images/${id.split("-")[0]}-logo.png`}
           alt={`logo do personagem`}
           width={200}
           height={200}
