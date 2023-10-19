@@ -9,7 +9,7 @@ interface IProps {
 }
 
 async function getTripulationData(): Promise<{ data: ITripulationData[] }> {
-  const res = await fetch(`${process.env.DOMAIN_ORIGIN}/api/tripulation`);
+  const res = await fetch(`${process.env.API_URL}/api/tripulation`);
 
   if (!res.ok) {
     throw new Error("Falha ao buscar os Piratas");
