@@ -29,7 +29,6 @@ Fiz a versão de configuração do zero para conhecer o Next.js.Este projeto da 
 
 [Github](https://github.com/micheleambrosio/dio-spiderverse)
 
-
 ## 💌 Autora
 
 ### Karla Oshikawa
