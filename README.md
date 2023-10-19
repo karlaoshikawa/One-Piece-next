@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![Demonstracao do projeto sobre One Piece](public/images/One-Piece-Next-Github.png)
 
-## Getting Started
 
-First, run the development server:
+# 🏴‍☠️ One Piece Paralax Carossel
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Este projeto foi baseado em em projeto da DIO sobre o Spyder-Verso. O projeto consiste em uma aplicação interativa inspirada no universo do One Piece, usando as principais stacks front-end: React, Next.js 13, a biblioteca Framer Motion, Sass e TypeScript para criar um projeto visual incrível e de alta performance.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Criei uma API externa para ter os mesmos desafios, propostos no projeto.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🔗 Deploy
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- [Link para o site](https://one-piece-next-carossel.vercel.app/)
 
-## Learn More
+## 💻 Preview
 
-To learn more about Next.js, take a look at the following resources:
+![gif com overview do site](public/images/One-Piece-Demo.gif)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ⚙️ Stacks
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+ CSS - SASS(scss) | JavaScript | Next.js 13 | Typescript | Framer Motion
 
-## Deploy on Vercel
+ ## 📁 DIO - Cursos
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+A Digital Innovation One (DIO) disponibiliza diversos projetos, trilhas, cursos e bootcamps para seus alunos, sendo possível realizar alguns deles gratuitamente. 
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Fiz a versão de configuração do zero para conhecer o Next.js.Este projeto da [DIO](https://web.dio.me/lab/criando-um-carrossel-parallax-do-aranhaverso-com-react-nextjs-13-e-framer-motion/learning/b759ceb8-2fe3-4b14-b5bb-40416d831263), também foi disponibilizado gratuitamente durante uma live. Eles fornecem um tutorial completo no Notion.
+
+[Live da aula](https://www.youtube.com/watch?v=d5HVw12uOpk)
+
+[Github](https://github.com/micheleambrosio/dio-spiderverse)
+
+
+## 💌 Autora
+
+### Karla Oshikawa
+
+[Linkedin](https://www.linkedin.com/in/karlaoshikawa/) | [Instagram](https://www.instagram.com/karla.oshikawa/)
+
+
