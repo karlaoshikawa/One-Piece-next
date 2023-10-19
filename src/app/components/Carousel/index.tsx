@@ -169,7 +169,7 @@ const getItemStyles = (position: enPosition) => {
   if (position === enPosition.FRONT) {
     return {
       filter: "blur(10px)",
-      scale: 1.2,
+      scale: 1.3,
       zIndex: 3,
     };
   }
@@ -177,7 +177,7 @@ const getItemStyles = (position: enPosition) => {
   if (position === enPosition.MIDDLE) {
     return {
       left: 300,
-      scale: 0.8,
+      scale: 1,
       top: "-10%",
       zIndex: 2,
     };
@@ -185,7 +185,7 @@ const getItemStyles = (position: enPosition) => {
 
   return {
     filter: "blur(10px)",
-    scale: 0.6,
+    scale: 0.7,
     left: 160,
     opacity: 0.8,
     zIndex: 1,
