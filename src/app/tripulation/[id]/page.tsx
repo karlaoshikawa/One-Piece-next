@@ -8,7 +8,7 @@ interface IProps {
   };
 }
 
-async function getTripulationData(): Promise<{ data: ITripulationData[] }> {
+async function getTripulationData(): Promise<ITripulationData[]> {
   const res = await fetch(`${process.env.API_URL}/api/tripulation`);
 
   if (!res.ok) {
@@ -21,5 +21,5 @@ async function getTripulationData(): Promise<{ data: ITripulationData[] }> {
 export default async function Hero({ params: { id } }: IProps) {
   const res = await getTripulationData();
 
-  return <Carousel heroes={res.data} activeId={id} />;
+  return <Carousel heroes={res} activeId={id} />;
 }

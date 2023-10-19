@@ -2,7 +2,7 @@ import style from "./page.module.scss";
 import TripulationList from "./components/TripulationList";
 import { ITripulationData } from "./interfaces/Itripulation";
 
-async function getTripulationData(): Promise<{ data: ITripulationData[] }> {
+async function getTripulationData(): Promise<ITripulationData[]> {
   const res = await fetch(`${process.env.API_URL}/api/tripulation`);
 
   if (!res.ok) {
@@ -14,10 +14,11 @@ async function getTripulationData(): Promise<{ data: ITripulationData[] }> {
 
 export default async function Home() {
   const res = await getTripulationData();
+console.log(res);
 
   return (
     <main className={style.main}>
-      <TripulationList tripulation={res.data} />
+      <TripulationList tripulation={res} />
     </main>
   );
 }
