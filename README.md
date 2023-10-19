@@ -11,6 +11,12 @@ Criei uma API externa para ter os mesmos desafios, propostos no projeto.
 
 - [Link para o site](https://one-piece-next-carossel.vercel.app/)
 
+## ☠️ API
+
+Disponibilizei a API, caso alguém também seja fã do Mugiwara e desejar criar algo no estilo.
+
+- [API](https://652bac64d0d1df5273ee97c2.mockapi.io/api/tripulation)
+
 ## 💻 Preview
 
 ![gif com overview do site](public/images/One-Piece-Demo.gif)
