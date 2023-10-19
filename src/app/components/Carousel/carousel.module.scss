@@ -2,6 +2,10 @@
   display: flex;
 }
 
+.hero-page {
+  transition: background 1s ease-in-out;
+}
+
 .carousel {
   flex: 1;
   left: -10%;
